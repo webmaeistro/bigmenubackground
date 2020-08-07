@@ -1,0 +1,28 @@
+{
+  "name": "bigbackgroundmenu",
+  "version": "0.1.0",
+  "description": "parcel bundel of css and html big menu background hover effect over links",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-minify --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webmaeistro/bigbackgroundmenu.git"
+  },
+  "keywords": ["css", "hover","menu","html"],
+  "author": "we the people",
+  "license": "MIT",
+  "homepage": "https://github.com/webmaeistro/bigbackgroundmenu",
+  "bugs": {
+    "url": "https://github.com/webmaeistro/bigbackgroundmenu/issues"
+  },
+  "dependencies": {
+    "gsap": "^3.2.4",
+    "imagesloaded": "^4.1.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
