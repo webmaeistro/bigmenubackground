@@ -1,5 +1,5 @@
 {
-  "name": "bigbackgroundmenu",
+  "name": "bigmenubackground",
   "version": "0.1.0",
   "description": "parcel bundel of css and html big menu background hover effect over links",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/webmaeistro/bigbackgroundmenu.git"
+    "url": "git://github.com/webmaeistro/bigmenubackground.git"
   },
   "keywords": ["css", "hover","menu","html"],
   "author": "we the people",
   "license": "MIT",
-  "homepage": "https://github.com/webmaeistro/bigbackgroundmenu",
+  "homepage": "https://github.com/webmaeistro/bigmenubackground",
   "bugs": {
-    "url": "https://github.com/webmaeistro/bigbackgroundmenu/issues"
+    "url": "https://github.com/webmaeistro/bigmenubackground/issues"
   },
   "dependencies": {
     "gsap": "^3.2.4",
