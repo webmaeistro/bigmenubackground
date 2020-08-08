@@ -43,7 +43,7 @@ body {
 	--font-menu-link: poynter-oldstyle-display, serif;
 	--font-weight-menu-link: 400;
 	--font-size-menu-link: 4vw;
-	--clip-1: polygon(10% 0, 25% 0%, 30% 60%, 50% 35%, 70% 60%, 75% 0, 90% 0, 80% 100%, 50% 60%, 20% 100%);
+	--clip-1: polygon(5% 10, 25% 0%, 40% 60%, 50% 25%, 70% 60%, 60% 0, 90% 0, 80% 100%, 50% 60%, 20% 100%);
 }
 
 .demo-3 {
@@ -59,7 +59,7 @@ body {
 	--font-menu-link: rigatoni, serif;
 	--font-weight-menu-link: 400;
 	--font-size-menu-link: 5vw;
-	--clip-1: polygon(50% 0%, 20% 100%, 80% 100%);
+	--clip-1: polygon(80% 10%, 20% 90%, 70% 90%);
 }
 
 .demo-4 {
@@ -75,8 +75,8 @@ body {
 	--font-menu-link: latienne-pro, serif;
 	--font-weight-menu-link: 700;
 	--font-size-menu-link: 5vw;
-	--clip-1: circle(41.9% at 19% 99%);
-	--clip-2: circle(16.2% at 74% 38%);
+	--clip-1: polygon(49% at 19% 99%);
+	--clip-2: circle(12% at 74% 28%);
 }
 
 /* Page Loader */
@@ -110,7 +110,7 @@ body {
 @keyframes loaderAnim {
 	to {
 		opacity: 1;
-		transform: scale3d(0.5,0.5,1);
+		transform: scale3d(0.6,0.55,1);
 	}
 }
 
